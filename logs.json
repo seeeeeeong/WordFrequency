@@ -1,0 +1,41 @@
+[
+  {
+    "input": "이 개새끼야 꺼져라",
+    "filtered": "[역번역 오류: 'coroutine' object has no attribute 'text']",
+    "score": 10,
+    "method": "역번역 순화",
+    "reason": [
+      "개새끼(욕설)",
+      "꺼져라(욕설)"
+    ],
+    "replacements": {
+      "개새끼": "나쁜놈",
+      "꺼져라": "나가세요",
+      "전체 문장": "역번역 적용됨"
+    },
+    "timestamp": "2025-05-03 18:48:36"
+  },
+  {
+    "input": "이것은 욕설을 포함한 예시 댓글입니다.",
+    "filtered": "이것은 욕설을 포함한 예시 댓글입니다.",
+    "score": 0,
+    "method": "정상",
+    "reason": [],
+    "replacements": {},
+    "timestamp": "2025-05-03 19:22:19"
+  },
+  {
+    "input": "야 이 개새끼야",
+    "filtered": "야 이 나쁜놈야",
+    "score": 6,
+    "method": "부분 순화",
+    "reason": [
+      "개새끼(욕설)",
+      "야이(감정폭발)"
+    ],
+    "replacements": {
+      "개새끼": "나쁜놈"
+    },
+    "timestamp": "2025-05-03 19:22:39"
+  }
+]
